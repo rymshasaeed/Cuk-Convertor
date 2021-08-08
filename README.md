@@ -7,7 +7,7 @@ Similar to the buck-boost converter with inverting topology, the output voltage 
   <img src="https://github.com/rimshasaeed/Cuk-Convertor/blob/main/images/dc-dc%20cuk%20convertor.jpg" width="60%"/>
 </p>
 
-### Operting Principle
+### Operating Principle
 A non-isolated Ćuk converter comprises two inductors, two capacitors, a switch (usually a transistor), and a diode. Its schematic can be seen in the above figure. It is an inverting converter, so the output voltage is negative with respect to the input voltage.
 
 The capacitor C is used to transfer energy. It is connected alternately to the input and to the output of the converter via the commutation of the transistor and the diode. The two inductors L<sub>1</sub> and L<sub>2</sub> are used to convert respectively the input voltage source (V<sub>g</sub>) and the output voltage source (V<sub>o</sub>)into current sources. This conversion is necessary because if the capacitor were connected directly to the voltage source, the current would be limited only by the parasitic resistance, resulting in high energy loss. For a short time-interval, inductor can be considered as a current source as it maintains a constant current. Charging a capacitor with a current source (i.e., the inductor) prevents resistive current limiting and its associated energy loss. MOSFET conduction states follows the sequence given below.
